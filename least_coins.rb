@@ -7,6 +7,8 @@ coins = {}
 if cents / 25 > 0
   quarters = cents/25
   cents = cents%25
+else 
+  quarters = 0
 end
 
 if cents / 10 > 0
